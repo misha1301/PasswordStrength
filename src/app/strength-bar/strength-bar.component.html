@@ -1,0 +1,19 @@
+<section>
+  <div
+    [ngClass]="{
+    'gray' : strongOfPassword === 'none',
+    'red' : strongOfPassword === 'low' || strongOfPassword === 'easy',
+    'yellow' : strongOfPassword === 'medium',
+    'green' : strongOfPassword === 'strong'  }"></div>
+  <div
+    [ngClass]="{
+    'gray' : strongOfPassword === 'none' || strongOfPassword === 'easy',
+    'red' : strongOfPassword === 'low',
+    'yellow' : strongOfPassword === 'medium',
+    'green' : strongOfPassword === 'strong'  }"></div>
+  <div
+    [ngClass]="{
+    'gray' : strongOfPassword === 'none' || strongOfPassword === 'easy' || strongOfPassword === 'medium',
+    'red' : strongOfPassword === 'low',
+    'green' : strongOfPassword === 'strong'}"></div>
+</section>

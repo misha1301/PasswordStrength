@@ -1,0 +1,29 @@
+section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 0.1rem;
+  padding: 0 0.3rem;
+}
+
+div{
+  width: 100%;
+  height: 0.7rem;
+  border-radius: 0.3rem;
+  background-color: gray;
+  transition: ease-in-out 300ms;
+}
+
+.grey{
+  background-color: #9b9a9a;
+}
+.red{
+  background-color: #F97D6C;
+}
+.yellow{
+   background-color: #F9DA6C;
+}
+.green{
+  background-color: #26D19E;
+}
+

@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: Inter, serif;
+  font-style: normal;
+  line-height: normal;
+}
+html{
+  background-color: #e4ecef;
+}
+body {
+  min-height: 100vh;
+}
